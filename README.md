@@ -11,6 +11,10 @@ Started my security journey in 2017 through self-learning
 ## Contact
 - WhatsApp: https://wa.me/+6283899008328
 
+## Team
+- Leader => BHNI ; BF7 ; 98
+- Member => 
+
 
 ---
 
