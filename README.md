@@ -13,7 +13,7 @@ Started my security journey in 2017 through self-learning
 
 ## Team
 - Leader => BHNI ; BF7 ; 98
-- Member => 
+- Member => I am a member of many technology groups and communities on various platforms, ranging from Indonesia, Asia, to the world.
 
 
 ---
