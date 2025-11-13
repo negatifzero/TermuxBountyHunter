@@ -9,8 +9,8 @@ Started my security journey in 2017 through self-learning
 - Open Source Project
 - Freelancer
 
-## Contact
-- WhatsApp: https://wa.me/+6283899008328
+## Chat room
+- https://matrix.to/#/!wQweLDtNjVpNgFVlhk:matrix.org?via=matrix.org
 
 ## Team
 - Leader => BHNI ; BF7 ; 98
