@@ -1,0 +1,33 @@
+id: example-sqli-error-based
+
+info:
+  name: Example Error-Based SQL Injection
+  author: YourName
+  severity: high
+  description: Detects error-based SQLi in the 'id' parameter.
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/product.php?id=§id§"
+
+    payloads:
+      sqli_payloads:
+        - "'"
+        - "' OR '1'='1"
+        - "''"
+        - "' OR 1=1-- -"
+
+    fuzzing:
+      - part: query
+        type: replace
+        mode: single
+        fuzz:
+          - "{{sqli_payloads}}"
+
+    matchers-condition: and
+    matchers:
+      - type: regex
+        part: body
+        regex:
+          - "SQL syntax.*MySQL|Warning.*mysql_.*|unclosed quotation mark"
