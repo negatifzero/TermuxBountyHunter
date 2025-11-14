@@ -2,5 +2,5 @@
 $apt update -y
 $apt upgrade -y
 $apt install nmap -y
-$nmap --script=dns-brute testphp.vulnweb.com
+$nmap --script=dns-brute www.google.com
 ```
